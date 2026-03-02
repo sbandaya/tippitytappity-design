@@ -9,7 +9,7 @@ tippitytappity is a program to practice typing
 classDiagram
   User <|-- Accuracy
   User <|-- Speed
-  Phrase 0-- Word 
+  Phrase o-- Word 
   class User{
         - name: string
         - email: string
