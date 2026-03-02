@@ -25,10 +25,13 @@ classDiagram
   class Speed{
         - time: int
   }
-  Class Word{
+  class Word{
 
   }
-  Class Phrase{
-    -
+  class Phrase{
+    
+  }
+  class History{
+
   }
 ```
