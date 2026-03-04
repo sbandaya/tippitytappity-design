@@ -10,8 +10,7 @@ classDiagram
   Stats <|-- Test
   Test <|-- Phrase
   User <|-- History
-  History o-- Speed
-  History o-- Accuracy
+  History o-- Stats
   
   class User{
         - name: string
