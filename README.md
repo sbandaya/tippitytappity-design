@@ -39,7 +39,7 @@ classDiagram
   class History{
         - avgSpeed: int
         - avgAccuracy: int
-        - vecctor<Test> tests 
+        - vector<Test> tests 
         + calcAvgSpeed(vector<Test>: tests )
         + calcAvgAccuracy(vector<Test>: tests)
   }
