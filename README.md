@@ -11,7 +11,6 @@ classDiagram
   Test <-- Phrase
   User <-- History
   History o-- Stats
-  User o-- History
 
   class User{
         - name: string
