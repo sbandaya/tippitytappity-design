@@ -13,7 +13,6 @@ classDiagram
   User <|-- History
   History o-- Speed
   History o-- Accuracy
-  Phrase o-- Word
   
   class User{
         - name: string
@@ -36,7 +35,8 @@ classDiagram
   }
   class Phrase{
         - wordCount: int
-        - vectpr<string> words
+        - vector<string> words
+        
   }
   class Test{
         - numCorrect: int
