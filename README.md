@@ -29,10 +29,6 @@ classDiagram
         - time: int
         + getSpeed(time: int, wordCount: int) int
   }
-  class Word{
-        - word: string
-        - numCharacters: int 
-  }
   class Phrase{
         - wordCount: int
         - vector<string> words
