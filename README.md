@@ -29,7 +29,7 @@ classDiagram
   }
   class Phrase{
         - wordCount: int
-        - vector<string> words
+        - string words
   }
   class Test{
         - numCorrect: int
