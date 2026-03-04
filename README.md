@@ -18,8 +18,6 @@ classDiagram
         - name: string
         - email: string
         - password: string
-        - accuracy: int
-        - speed: int
         + login(user: string, pass: string) boolean
         + get_email() string
   }
