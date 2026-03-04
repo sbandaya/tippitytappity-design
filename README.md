@@ -7,8 +7,8 @@ tippitytappity is a program to practice typing
 
 ```mermaid
 classDiagram
-  Test <|-- Accuracy
-  Test <|-- Speed
+  Accuracy <|-- Test
+  Speed <|-- Test
   Test <|-- Phrase
   User <|-- History
   History o-- Test
