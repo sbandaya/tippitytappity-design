@@ -9,7 +9,7 @@ tippitytappity is a program to practice typing
 classDiagram
   Stats <-- Test
   Test <-- Phrase
-  User 1--1 History
+  User "1" --> "1" History
   History o-- Stats
   History o-- Test
 
