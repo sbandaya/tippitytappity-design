@@ -19,6 +19,7 @@ classDiagram
         - password: string
         + login(user: string, pass: string) boolean
         + get_email() string
+        
   }
   class Stats{
         - accuracy: int
@@ -38,6 +39,9 @@ classDiagram
   class History{
         - avgSpeed: int
         - avgAccuracy: int
+        - vecctor<Test> tests 
+        + calcAvgSpeed(vector<Test>: tests )
+        + calcAvgAccuracy(vector<Test>: tests)
   }
   
 ```
