@@ -11,7 +11,8 @@ classDiagram
   Speed <|-- Test
   Test <|-- Phrase
   User <|-- History
-  History o-- Test
+  History o-- Speed
+  History o-- Accuracy
   Phrase o-- Word
   
   class User{
